@@ -23,6 +23,15 @@ body{
     margin-top: 100px;
 }
 
+/*PLAYSTATIO-COMPONENT*/
+.cs-marg-top{
+    margin-top: -75px;
+}
+
+.cs-marg-bottom{
+    margin-top: 50px;
+}
+
 /*IT-TAKES-TWO-BIG*/
 .cs-bg-takeshero{
     background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -106,6 +115,11 @@ body{
     transform: scale(.9);
     transition: 1s linear;
     cursor: pointer;
+}
+
+.store-ps:hover{
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 
