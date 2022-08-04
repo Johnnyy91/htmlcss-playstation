@@ -30,3 +30,49 @@ body{
 .cs-bg-dark{
     background-color: #1f1f1f;
 }
+
+.cs-bg-lightgray{
+    background-color: #bebcb6;
+}
+
+.cs-img-abes, .cs-img-avengers{
+    max-width: 250px;
+}
+
+.cs-bg-blue{
+    background-color: #161c3b;
+}
+
+.cs-bg-lightblue{
+    background-color: #00439c;
+}
+
+.cs-img-globe{
+    width: 25px;
+}
+
+.cs-img-logofoot{
+    width: 150px;
+}
+
+.cs-negative-marg{
+    margin-top: 100px;
+}
+
+.cs-but-gray{
+    background-color: #bebcb6;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.cs-but-whit{
+    background-color: lightgray;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 10px;
+
+}
+
