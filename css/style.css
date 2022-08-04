@@ -1,48 +1,59 @@
+/*BODY-FONT*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*HEADER*/
 .cs-bg-black{
     background-color: black;
-}
-
-.cs-border{
-    border: 1px solid lightslategrey;
-    font-size: 2rem;
-}
-
-.cs-bg-returnal{
-    background-image:url(../img/jumbo-bg.png);
-    background-size:cover;
-    background-position: center;
 }
 
 .cs-img-head{
     max-width: 100px;
 }
 
+/*RETURNAL-FIRST*/
+.cs-bg-returnal{
+    background-image:url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.cs-negative-marg{
+    margin-top: 100px;
+}
+
+/*IT-TAKES-TWO-BIG*/
 .cs-bg-takeshero{
     background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size:cover;
     background-position: center;
 }
 
+/*NEW-GAMES*/
 .cs-bg-dark{
     background-color: #1f1f1f;
 }
 
+/*PLAYSTATION-PLUS*/
 .cs-bg-lightgray{
     background-color: #bebcb6;
 }
 
-.cs-img-abes, .cs-img-avengers{
+.cs-img-abes{
     max-width: 250px;
 }
 
+/*PLAYSTATION-NOW*/
 .cs-bg-blue{
     background-color: #161c3b;
 }
 
+.cs-img-avengers{
+    max-width: 250px;
+}
+
+/*FOOTER*/
 .cs-bg-lightblue{
     background-color: #00439c;
 }
@@ -55,10 +66,7 @@ body{
     width: 150px;
 }
 
-.cs-negative-marg{
-    margin-top: 100px;
-}
-
+/*BUTTON*/
 .cs-but-gray{
     background-color: #bebcb6;
     color: black;
@@ -73,6 +81,32 @@ body{
     border-radius: 25px;
     border: none;
     padding: 5px 10px;
-
 }
+
+/*HOVER-EFFECTS*/
+.component-hov:hover{
+    border-bottom: 2px solid #00439c;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.card-click:hover{
+    transform: scale(.9);
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+.games-hoc:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transform:scale(.9)
+}
+
+.social-click:hover{
+    transform: scale(.9);
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+
 
