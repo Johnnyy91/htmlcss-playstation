@@ -19,6 +19,10 @@ body{
     background-position: center;
 }
 
+.cs-img-returnal{
+    max-width: 300px;
+}
+
 .cs-negative-marg{
     margin-top: 100px;
 }
@@ -100,8 +104,9 @@ body{
 }
 
 .card-click:hover{
-    transform: scale(.9);
-    transition: 1s linear;
+    /*transform: scale(.9);*/
+    transform:translate(0px, -25%);
+    transition: 2s linear;
     cursor: pointer;
 }
 
@@ -122,5 +127,15 @@ body{
     opacity: 0.6;
 }
 
+.cs-bord-red:hover{
+    border: 2px solid red;
+}
 
+.cs-bord-blue:hover{
+    border: 2px solid #00439c;
+    
+}
 
+.cs-bord-lightgray:hover{
+    border: 2px solid #bebcb6;
+}
